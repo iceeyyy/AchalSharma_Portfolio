@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I’m an enthusiastic front-end developer with a passion for creating responsive and user-friendly web applications. With a strong foundation in React, I enjoy turning design concepts into functional, intuitive interfaces. Though I'm at the beginning of my journey, I’m eager to apply my skills and continuously learn, with the goal of delivering innovative web solutions that enhance user experiences.`;
@@ -52,6 +52,12 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "React"],
+  },
+  {
+    title: "Vanila",
+    image: project3,
+    description:"Vanila is a games e-commerce store offering a seamless shopping experience, secure transactions, and an extensive game catalog.",
+    technologies:["HTML","CSS","React","Bootstrap"]
   },
   
   
